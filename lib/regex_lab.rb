@@ -4,7 +4,7 @@ def starts_with_a_vowel?(word)
   #binding.pry
   if word.match(/\w [aeiou]/)
     true 
-  else word
+  else 
     false 
   end 
 end
